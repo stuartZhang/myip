@@ -1,10 +1,10 @@
-# Quick-local-ip
+# quick-local-ip-stzhang
 
-quick-local-ip is a utility module which provides straight-forward access to local network addresses. it provides 2 functions to get local ip addresses.
+quick-local-ip-stzhang is a utility module which provides straight-forward access to local network addresses. it provides 2 functions to get local ip addresses.
 
 ### Installation
 
-    npm install --save quick-local-ip
+    npm install --save quick-local-ip-stzhang
 
 - If System is connected to multiple internet connections like wifi and ethernet and usb internet, following methods will return any active internet address in string format.
 - If System is connected with one internet connection, methods will return ip address in string format.
@@ -15,7 +15,7 @@ quick-local-ip is a utility module which provides straight-forward access to loc
 
 ## Quick Examples
 
-var myip = require('quick-local-ip');
+var myip = require('quick-local-ip-stzhang');
 
 ### getting ip4 network address of local system.
 
