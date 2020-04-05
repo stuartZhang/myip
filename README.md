@@ -4,9 +4,7 @@ quick-local-ip-stzhang is a utility module which provides straight-forward acces
 
 ## Installation
 
-    ```shell
     npm install --save quick-local-ip-stzhang
-    ```
 
 - If System is connected to multiple internet connections like wifi and ethernet and usb internet, following methods will return any active internet address in string format.
 - If System is connected with one internet connection, methods will return ip address in string format.
@@ -15,20 +13,16 @@ quick-local-ip-stzhang is a utility module which provides straight-forward acces
 
 ## Quick Examples
 
-    ```javascript
     var myIp = require('quick-local-ip-stzhang');
-    ```
 
 ### getting ip4 network address of local system
 
-    ```javascript
     myIp.getLocalIP4({
         excludes: [ // There're all names of excluded virtual network cards.
             'VMware Network Adapter',
             'Pseudo-Interface'
         ]
     });
-    ```
 
 ### getting ip6 network address of local system
 
