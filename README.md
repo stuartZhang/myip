@@ -26,11 +26,9 @@ quick-local-ip-stzhang is a utility module which provides straight-forward acces
 
 ### getting ip6 network address of local system
 
-    ```javascript
     myIp.getLocalIP6({
         excludes: [ // There're all names of excluded virtual network cards.
             'VMware Network Adapter',
             'Pseudo-Interface'
         ]
     });
-    ```
