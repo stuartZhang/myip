@@ -1,6 +1,6 @@
 {
   "name": "quick-local-ip-stzhang",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a tiny utility to get local ip address with in node applications.",
   "main": "index.js",
   "scripts": {
